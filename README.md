@@ -2,7 +2,9 @@
 
 Welcome to the Rujira bug bounty program!
 
-## Sponsor notes
+## Max Payout
+ - Max Critical Severity Payout: Up to $25,000
+ - Max High Severity Payout: Up to $2,000
 
 Please note that we are mostly interested in Critical severity reports, i.e. bugs that could lead to:
  - Direct theft of funds or NFTs
@@ -15,10 +17,6 @@ We will also consider High severity reports, but with a much lower payout, i.e. 
  - Theft of unclaimed funds (e.g., yield, royalties)
  - Permanent freezing of unclaimed funds
  - Material Oracle Manipulation (materially influencing on-chain price feeds or data sources)
-
-## Max Payout
- - Max Critical Severity Payout: Up to $25,000
- - Max High Severity Payout: Up to $2,000
 
 ## Background on Rujira
 
