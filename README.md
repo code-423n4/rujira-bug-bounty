@@ -2,7 +2,8 @@
 
 Welcome to the Rujira bug bounty program!
 
-**❗ Important notes for wardens**
+**❗ Important notes for wardens:**
+
 The Rujira bug bounty submissions are reviewed by an appointed Code4rena judge.
 
 ## Max Payout
