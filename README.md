@@ -4,7 +4,9 @@ Welcome to the Rujira bug bounty program!
 
 **❗ Important notes for wardens:**
 
-The Rujira bug bounty submissions are reviewed by an appointed Code4rena judge.
+- The Rujira bug bounty submissions are reviewed by an appointed Code4rena judge.
+- [Read our guidelines for more details](https://docs.code4rena.com/bounties)
+- Submit findings using the C4 form (link to be added) 
 
 ## Max Payout
  - Max Critical Severity Payout: Up to $25,000
