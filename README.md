@@ -56,6 +56,8 @@ Rujira aims to offer a complete suite of DeFi dapps and tools. The following app
 | Name | Description | Example (with thor address) | Repo | Docs |
 |------|-------|-------|-------|-------|
 | FIN (RUJI Trade) | A 100% on-chain orderbook DEX | [BTC/USDC pair](https://thorchain.net/address/thor1dwsnlqw3lfhamc5dz3r57hlsppx3a2n2d7kppccxfdhfazjh06rs5077sz). There are as many contracts as there are pairs |  [rujira-fin](https://gitlab.com/thorchain/rujira/-/tree/main/contracts/rujira-fin) | [docs](https://docs.rujira.network/core-products/ruji-trade) |
+| Ghost Vault (RUJI Lending) | Decentralized money market (lending side) | [USDC Lending vault](https://thorchain.net/address/thor1hs6wzyk4tf25ujd7lu07hhnkj4tl38m3wpp6qqw50y5r3e3x7zksnvj3qr). There are as many contracts as there are tokens available for lending | [rujira-ghost-vault](https://gitlab.com/thorchain/rujira/-/tree/main/contracts/rujira-ghost-vault) | [docs](https://docs.rujira.network/core-products/ruji-lending) |
+| Ghost Credit (RUJI Lending) | Decentralized money market (borrow side) | [Credit Account contract](https://thorchain.net/address/thor1ekkt8wfls055t7f7yznj07j0s4mtndkq546swutzv2de7sfcxptq27duyt) | [rujira-ghost-credit](https://gitlab.com/thorchain/rujira/-/tree/main/contracts/rujira-ghost-credit) | [docs](https://gitlab.com/thorchain/rujira/-/blob/main/contracts/rujira-ghost-credit/README.md) |
 | Virtualization Strategy | AMM strategy allowing FIN to tap into THORChain base layer pools liquidity | [VS contract](https://thorchain.net/address/thor1n5a08r0zvmqca39ka2tgwlkjy9ugalutk7fjpzptfppqcccnat2ska5t4g) | [rujira-thorchain-swap](https://gitlab.com/thorchain/rujira/-/tree/main/contracts/rujira-thorchain-swap) | [docs](https://docs.rujira.network/core-products/ruji-pools/base-layer-virtualization-strategy) |
 | Rujira Revenue Converter | Collect reward tokens and convert them into a smaller number of assets to be distributed to stakers | [Revenue Collector 1](https://thorchain.net/address/thor1mcy9jtp4kzl8q2lvdgfgsl8jvqrf504uphkf0pz2p9wud8tsntesjvccew). There are multiple instances of Revenue Converter deployed | [rujira-revenue](https://gitlab.com/thorchain/rujira/-/tree/main/contracts/rujira-revenue) | NA | 
 | Rujira Staking | Generic staking contract for revenue distribution with inbuilt liquid staking | [RUJI single-sided staking](https://thorchain.net/address/thor13g83nn5ef4qzqeafp0508dnvkvm0zqr3sj7eefcn5umu65gqluusrml5cr). There are several instances of Staking contracts deployed | [rujira-staking](https://gitlab.com/thorchain/rujira/-/tree/main/contracts/rujira-staking) | NA |
@@ -79,9 +81,11 @@ Any **previously reported** vulnerabilities mentioned in past audit reports are 
 
 Rujira previous audits can be found below:
  - [RUJI Trade (FIN) by Halborn](https://www.halborn.com/audits/thorchain/ruji-trade-fin-4604e5)
- - [RUJI Pools (BOW) by Halborn](https://www.halborn.com/audits/thorchain/ruji-pools-bow-19e51f)
  - [Revenue Converter & Staking contracts by Zellic](https://github.com/Zellic/publications/blob/master/Rujira%20-%20Zellic%20Audit%20Report.pdf)
  - [Revenue Converter & Staking contracts by Halborn](https://www.halborn.com/audits/thorchain/rujira-staking-319044)
+ - [RUJI Trade (FIN v1.1) by Halborn](https://www.halborn.com/audits/thorchain/ruji-trade-fin-v11-9d7ca3)
+ - [RUJI Lending (Ghost Vault) by Halborn](https://www.halborn.com/audits/thorchain/ruji-lending-48bc98)
+ - [RUJI Lending (Ghost Credit) by Halborn](https://www.halborn.com/audits/thorchain/credit-accounts-21860f)
 
 ### Specific Types of Issues
 
