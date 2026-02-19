@@ -86,6 +86,8 @@ Rujira previous audits can be found below:
  - [RUJI Trade (FIN v1.1) by Halborn](https://www.halborn.com/audits/thorchain/ruji-trade-fin-v11-9d7ca3)
  - [RUJI Lending (Ghost Vault) by Halborn](https://www.halborn.com/audits/thorchain/ruji-lending-48bc98)
  - [RUJI Lending (Ghost Credit) by Halborn](https://www.halborn.com/audits/thorchain/credit-accounts-21860f)
+ - [RUJI Trade (FIN v1.2) by FailSafe()](https://getfailsafe.com/rujira-fin-smart-contract-audit)
+ - [RUJI Lending (Ghost Vault & Credit) by Code4rena audit competition] --> To be published soon
 
 ### Specific Types of Issues
 
