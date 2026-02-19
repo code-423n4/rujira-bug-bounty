@@ -74,6 +74,7 @@ Bug reports covering previously-discovered bugs (listed below) are not eligible 
 
 The following are known issues and therefore are out of scope:
  - FIN (RUJI Trade): Swap overpayment leads to loss for buyers. When a user submits a swap above an exact multiple of the base asset’s price, the excess amount is not refunded or adjusted properly.
+ - FIN (RUJI Trade): Unbounded Orderbook Iteration Can Cause DoS.
 
 ### Previous Audits
 
@@ -86,7 +87,7 @@ Rujira previous audits can be found below:
  - [RUJI Trade (FIN v1.1) by Halborn](https://www.halborn.com/audits/thorchain/ruji-trade-fin-v11-9d7ca3)
  - [RUJI Lending (Ghost Vault) by Halborn](https://www.halborn.com/audits/thorchain/ruji-lending-48bc98)
  - [RUJI Lending (Ghost Credit) by Halborn](https://www.halborn.com/audits/thorchain/credit-accounts-21860f)
- - [RUJI Trade (FIN v1.2) by FailSafe()](https://getfailsafe.com/rujira-fin-smart-contract-audit)
+ - [RUJI Trade (FIN v1.2) by FailSafe](https://getfailsafe.com/rujira-fin-smart-contract-audit)
  - [RUJI Lending (Ghost Vault & Credit) by Code4rena audit competition] --> To be published soon
 
 ### Specific Types of Issues
