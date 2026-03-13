@@ -21,7 +21,6 @@ Please note that we are mostly interested in Critical severity reports, i.e. bug
  - Unauthorized Minting / Burning of Tokens
 
 We will also consider High severity reports, but with a much lower payout, i.e. bugs that could lead to:
- - Temporary freezing of funds
  - Theft of unclaimed funds (e.g., yield, royalties)
  - Permanent freezing of unclaimed funds
  - Material Oracle Manipulation (materially influencing on-chain price feeds or data sources)
@@ -101,7 +100,7 @@ Rujira previous audits can be found below:
 - Attacks requiring access to leaked keys/credentials.
 - Attacks requiring access to privileged addresses (governance, strategist).
 - Vulnerabilities related to 3rd party services (AWS, Google, etc).
-- Any denial of service attacks.
+- Any denial of service attacks, inclduing temporary freezing of funds.
 - Documentation errors.
 - Issues in example or demo applications.
 - Issues that take an infeasible amount of computation to exploit.
