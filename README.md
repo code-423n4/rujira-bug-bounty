@@ -12,6 +12,8 @@ Welcome to the Rujira bug bounty program!
  - Max Critical Severity Payout: Up to $25,000
  - Max High Severity Payout: Up to $2,000
 
+**KYC required for payout:** If your bounty submission meets the criteria for a reward, you must complete [Certification (ID verification)](https://docs.code4rena.com/roles/certification-id-verification).
+
 ### Areas of focus/interest
 
 Please note that we are mostly interested in Critical severity reports, i.e. bugs that could lead to:
