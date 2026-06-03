@@ -17,14 +17,12 @@ Welcome to the Rujira bug bounty program!
 ### Areas of focus/interest
 
 Please note that we are mostly interested in Critical severity reports, i.e. bugs that could lead to:
- - Direct theft of funds or NFTs
- - Permanent freezing of funds or NFTs
- - Protocol insolvency
+ - Direct theft of funds
  - Unauthorized Minting / Burning of Tokens
 
 We will also consider High severity reports, but with a much lower payout, i.e. bugs that could lead to:
- - Theft of unclaimed funds (e.g., yield, royalties)
- - Permanent freezing of unclaimed funds
+ - Direct theft of unclaimed funds (e.g., yield, royalties)
+ - Protocol insolvency
  - Material Oracle Manipulation (materially influencing on-chain price feeds or data sources)
 
 ## Background on Rujira
@@ -94,6 +92,8 @@ Rujira previous audits can be found below:
 
 ### Specific Types of Issues
 
+- Freezing of funds that can be recovered via code migration.
+- Any denial of service attacks, inclduing temporary freezing of funds.
 - Informational findings.
 - Design choices related to protocol. For example, the ability to deploy permissionless pools.
 - Issues that are ultimately user errors and can easily be caught in the frontend. For example, transfers to address(0).
@@ -102,7 +102,6 @@ Rujira previous audits can be found below:
 - Attacks requiring access to leaked keys/credentials.
 - Attacks requiring access to privileged addresses (governance, strategist).
 - Vulnerabilities related to 3rd party services (AWS, Google, etc).
-- Any denial of service attacks, inclduing temporary freezing of funds.
 - Documentation errors.
 - Issues in example or demo applications.
 - Issues that take an infeasible amount of computation to exploit.
